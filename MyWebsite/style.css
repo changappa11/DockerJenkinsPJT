@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+body{
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+header{
+  background-color: #1974ED;
+  color: white;
+  padding: 8px 0px 6px 50px;
+  height: 40px;
+}
+header h1{
+    display: inline;
+    margin-top: 0px;
+    margin-left: 40px;
+    font-weight: 800;
+    float: left;
+
+}
+nav ul{
+  display: inline;
+  margin-left: 0;
+  float: left;
+  list-style-type: none;
+}
+header nav ul li{
+  display: inline-block;
+  float: left;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+nav ul li a{
+  color: white;
+  list-style-type: none;
+  float: left;
+  text-decoration: none;
+}
+.homepage{
+  
+  background-color: white;
+  padding: 0px 7px 8px 9px;
+  color: #1974ED;
+  font-size: 22px;
+
+}
+.projectpage:hover{
+  color: #1974ed;
+  padding: 0px 7px 7px 12px;
+
+}
+
+.achpage:hover{
+  color: #ff6633;
+  padding: 0px 7px 7px 12px;
+}
+.aboutuspage:hover{
+  color: #996699;
+  padding: 0px 7px 7px 12px;
+}
+.Contactuspage:hover{
+  color: #eb466d;
+  padding: 0px 7px 7px 12px;
+}
+
+
+
+
+#details{
+  font: left;
+}
+.loginbutton {
+  background-color: #1166d4;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px 4px 2px;
+  cursor: default;
+  border-radius: 16px;
+  position:absolute;
+  transition: .5s ease;
+  top: 15px;
+  left: 1220px;
+  right: -420px;
+  bottom: -191px;
+  height: 25px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+.loginbutton:hover{
+  background-color: white;
+  color:#1166d4;
+  font-family: 'PT Sans', sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.signupbutton {
+  background-color: #1166d4;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px 4px 2px;
+  cursor: default;
+  border-radius: 16px;
+  position:absolute;
+  transition: .5s ease;
+  top: 15px;
+  left: 1280px;
+  right: -420px;
+  bottom: -191px;
+  height: 25px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+.signupbutton:hover{
+  background-color: white;
+  color:#1166d4;
+  font-family: 'PT Sans', sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
